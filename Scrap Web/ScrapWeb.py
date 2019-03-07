@@ -65,10 +65,10 @@ for info in zip(titles,prices,totalTags,totalPlatforms):
     response['platforms']= info[3]
     output.append(response)
 
-print(output)
+#print(output)
 X = 1
-for game in zip(titles,prices,totalTags,totalPlatforms):
-    game1=Game(info[0],info[1],info[2],info[3])
+for Juego in zip(titles,prices,totalTags,totalPlatforms):
+    game1=Game(Juego[0],Juego[1],Juego[2],Juego[3])
     print("*********")
     print("Game "+str(X))
     X=X+1
